@@ -75,13 +75,14 @@ java -jar spring_app_sak-0.0.1-SNAPSHOT.jar
 ---
 
 # 📡 Node Exporter Setup
-
-## 📌 Install Node Exporter
-
-```bash
-# Installation script already provided
+---
 ```
-
+🧠 Manage Node Exporter:
+   sudo systemctl status node_exporter
+   sudo systemctl restart node_exporter
+   sudo journalctl -u node_exporter -f
+---
+```
 ## 🌐 Access Metrics
 
 ```
